@@ -406,10 +406,12 @@ module HexaPDF
                         XXResources: 'HexaPDF::Type::Resources',
                         XXTrailer: 'HexaPDF::Type::Trailer',
                         XXViewerPreferences: 'HexaPDF::Type::ViewerPreferences',
+                        Annot: 'HexaPDF::Type::Annot',
                       },
                       'object.subtype_map' => {
                         Image: 'HexaPDF::Type::Image',
                         Form: 'HexaPDF::Type::Form',
+                        Widget: 'HexaPDF::Type::Widget',
                         Type0: 'HexaPDF::Type::FontType0',
                         Type1: 'HexaPDF::Type::FontType1',
                         TrueType: 'HexaPDF::Type::FontTrueType',

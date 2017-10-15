@@ -63,7 +63,8 @@ module HexaPDF
     autoload(:FontTrueType, 'hexapdf/type/font_true_type')
     autoload(:FontType0, 'hexapdf/type/font_type0')
     autoload(:CIDFont, 'hexapdf/type/cid_font')
-
+    autoload(:Widget, 'hexapdf/type/widget')
+    autoload(:Annot, 'hexapdf/type/annot')
   end
 
 end
